@@ -97,7 +97,7 @@
   :init
   (setq projectile-completion-system 'ivy)
   :config
-  (setq projectile-project-search-path '("~/Projects/"))
+  (setq projectile-project-search-path '("~/workspace/"))
   (define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
   (projectile-mode +1))
 
